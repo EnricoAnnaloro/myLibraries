@@ -1,6 +1,9 @@
 # MYLIBRARIES 
 This is a collection of all my libraries developed in different programming languages
 
+[Javascript Library][##Javascript Library]
+&nbsp;&nbsp;[Data Structures][###Data Structures]
+
 ## Javascript Library
 This collection is based on Javascript.
 
