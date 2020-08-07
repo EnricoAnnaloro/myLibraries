@@ -8,7 +8,7 @@ This is a collection of all my libraries developed in different programming lang
 This collection is based on Javascript.
 
 ### Data Structures
-** Linked List **
+**Linked List**
 methods and usages
     export Linked_List from './javascript/data_structures/linked_list'
 
