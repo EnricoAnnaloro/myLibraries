@@ -3,6 +3,7 @@ This is a collection of all my libraries developed in different programming lang
 
 - [Javascript Library](#Javascript-Library)
     - [Data Structures](#Data-Structures)
+- [Python Library](#Python-Library)
 
 ## Javascript Library
 This collection is based on Javascript.
@@ -21,3 +22,6 @@ methods and usages
 - *delete(value)*: Deletes all elements with elements with "value" = value;
 - *deleteOne(value)*: Deletes the first element with "value" = value;
 - *toArray()*: Returns an array with all the elements in the list*;
+
+## Python Library
+This collection is based on Python 3.8
