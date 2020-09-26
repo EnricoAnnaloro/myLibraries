@@ -3,7 +3,7 @@ Binary search is a recursive algorithm that is used to efficiently locate
 a target value within sorted sequence of n elements
 """
 
-def binary_search(data, target, low, high):
+def binary_search_recursive(data, target, low, high):
     """Return True if target is found in indicated portion of a Python list.
 
     The search only considers the portion of data from data[low] to data[high] inclusive.
@@ -15,18 +15,18 @@ def binary_search(data, target, low, high):
         if target == data[mid]:
             return True
         elif target < data[mid]:
-            return binary_search(data, target, low, mid - 1)
+            return binary_search_recursive(data, target, low, mid - 1)
         else:        
-            return binary_search(data, target, mid + 1, high)
+            return binary_search_recursive(data, target, mid + 1, high)
 
 if __name__ == "__main__":
     data = [4, 5, 7, 9, 10, 20, 100, 35, 67, 89, 90, 22]
     test1_solution = True
     test2_solution = False
     test3_solution = False
-    test_1 = binary_search(data, 5, 0, len(data)-1)
-    test_2 = binary_search(data, 44, 0, len(data)-1)
-    test_3 = binary_search(data, 10, 5, len(data)-1)
+    test_1 = binary_search_recursive(data, 5, 0, len(data)-1)
+    test_2 = binary_search_recursive(data, 44, 0, len(data)-1)
+    test_3 = binary_search_recursive(data, 10, 5, len(data)-1)
 
 
 
