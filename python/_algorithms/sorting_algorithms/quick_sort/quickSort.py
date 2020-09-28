@@ -58,8 +58,6 @@ def quickSort(data, low, high):
     Input:  data, should be an array/list of numbers
             low, starting index
             high, ending index
-
-    Output: sorted array/list of data
     '''
     if high == 1:
         return data
